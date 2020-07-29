@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="icon.webp" type="image/x-icon">
+</head>
+
+<body>
+    <h2 style="text-align: center; color:#4f8a8b; margin-bottom: 20px;">Weather
+        App
+        <button class="dark-mode-btn" onclick="darkMode()" style="float: right;"><i class="fa fa-moon-o"
+                aria-hidden="true"></i></button>
+    </h2>
+    <input type="text" class="input" placeholder="Enter the place ">
+    <button style="color: #07031a;" class="searchBtn" onclick="getdata()"> <strong> Search </strong></button>
+    <main id="main">
+        <div style="color: #4f8a8b;" class="main_place">
+            <h1 id="place">Canada, </h1>
+            <h1 class="countrys">ES</h1>
+        </div>
+        <div style="color: #4f8a8b;" id="para1"></div>
+        <div>
+            <h2 class="temp">20 °C</h2>
+        </div>
+        <div class="weather-icon"><img class="image" src=" http://openweathermap.org/img/wn/10d@2x.png" /></div>
+        <h2 class="desc"><strong>Broken Clouds</strong></h2>
+
+        <div class="lower_part">
+            <h4>TEMP</h4>
+            <p class="wind">Max: <span class="max">36 °C</span> </p>
+            <p class="wind">Min: <span class="min">36 °C</span>
+
+            <h4>WIND</h4>
+            <p class="wind">Deg: <span class="deg">36</span> </p>
+            <p class="wind">Speed: <span class="speed">36</span> </p>
+        </div>
+    </main>
+
+
+    <footer>Made with ♡ by <a class="link" target="_blank" href="https://www.linkedin.com/in/gunasethu/">Gunasethu</a>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
